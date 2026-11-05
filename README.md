@@ -13,7 +13,7 @@ The study compares a hybrid classifier (NFReqANN-Hybrid: 5,000 TF-IDF features c
 | `nfr_classification.ipynb` | **Original experiments.** Nine model configurations on ten stratified 80/20 splits (seeds 34–43), with LIME, SHAP, and computational cost. |
 | `NFR_revision_experiments.ipynb` | **Revision experiments.** Re-executes all models in one environment and adds tuned baselines, fine-tuned RoBERTa, a class-weighted hybrid, duplicate-aware and leave-one-project-out evaluation, block-level attribution, end-to-end timing, and corrected statistical tests. |
 | `split_indices.csv` | The exact training, validation, and test rows of every split used in the revision (Protocols A, B, C). |
-| `results/` | Outputs of the revision notebook: per-run predictions, summary tables, attribution, timing (see *Outputs* below). |
+| `results/` | Outputs of the revision notebook (per-run predictions, summary tables, attribution, timing), plus three tables from the original runs (see *Outputs* below). |
 | `LICENSE` | MIT license (code). |
 
 ## Which notebook produced which part of the paper
@@ -78,6 +78,9 @@ Software used for the revision run: Python 3.13, TensorFlow 2.21, PyTorch 2.11, 
 | `attribution/`, `summary/attribution_*.csv` | Block-level Shapley values, block ablation, expected-gradients shares, and top tokens for the hybrid (ten runs) |
 | `timing_end_to_end_phase*.json` | End-to-end training and inference times on GPU and CPU |
 | `transformer_lr_selection.json` | Validation macro-F1 for each candidate learning rate of the fine-tuned transformers |
+| `per_run_acc_f1_all_models.csv` | **Original runs** (`nfr_classification.ipynb`): accuracy and macro-F1 of every model for each of the ten seeds, extracted from the notebook's printed outputs |
+| `per_class_all_models.csv` | **Original runs**: per-class precision, recall, and F1 (mean and s.d.) of every model (SVM and LogReg re-computed deterministically; values match the printed outputs) |
+| `stats_hybrid_vs_comparators.csv` | **Original runs**: corrected resampled t-tests of Table 11 (with uncorrected t and Wilcoxon for reference) |
 
 ## Model names
 
