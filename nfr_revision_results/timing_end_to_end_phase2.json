@@ -1,0 +1,46 @@
+[
+ {
+  "model": "FT-DistilBERT",
+  "device": "cuda",
+  "train_total_sec": 46.93875913619995,
+  "train_total_is_estimate": false,
+  "infer_batch_ms_per_item": 2.7998438087453277,
+  "infer_single_ms": 5.439283499981684,
+  "trainable_params": 66957317,
+  "frozen_params": 0,
+  "mean_epochs": 9.7
+ },
+ {
+  "model": "FT-RoBERTa",
+  "device": "cuda",
+  "train_total_sec": 66.21144437789917,
+  "train_total_is_estimate": false,
+  "infer_batch_ms_per_item": 4.53386578141601,
+  "infer_single_ms": 10.167883000576694,
+  "trainable_params": 124649477,
+  "frozen_params": 0,
+  "mean_epochs": 7.0
+ },
+ {
+  "model": "FT-DistilBERT",
+  "device": "cpu",
+  "train_total_sec": 1485.5074947985831,
+  "train_total_is_estimate": true,
+  "infer_batch_ms_per_item": 86.68021756830306,
+  "infer_single_ms": 61.868986999797926,
+  "trainable_params": 66957317,
+  "frozen_params": 0,
+  "mean_epochs": 9.7
+ },
+ {
+  "model": "FT-RoBERTa",
+  "device": "cpu",
+  "train_total_sec": 2138.62631338765,
+  "train_total_is_estimate": true,
+  "infer_batch_ms_per_item": 149.37272888524268,
+  "infer_single_ms": 113.9701989995956,
+  "trainable_params": 124649477,
+  "frozen_params": 0,
+  "mean_epochs": 7.0
+ }
+]

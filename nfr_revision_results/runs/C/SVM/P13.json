@@ -1,0 +1,1 @@
+{"protocol": "C", "model": "SVM", "fold": "P13", "seed": 1013, "test_idx": [202, 204, 767], "y_true": [4, 4, 1], "y_pred": [4, 4, 1], "proba": null, "n_train": 692, "n_val": 111, "n_outer_train": 803, "n_test": 3, "accuracy": 1.0, "f1_macro": 0.4, "train_time_sec": 0.013072729110717773, "infer_sec_per_item": 0.00011483828226725261, "epochs": null, "info": {}}

@@ -1,0 +1,35 @@
+[
+ {
+  "model": "NFReqANN-Hybrid",
+  "device": "cuda",
+  "train_tfidf_sec": 0.06709587300065323,
+  "train_embedding_sec": 1.8630344849989342,
+  "train_classifier_sec": 9.317578077316284,
+  "train_total_sec": 11.247708435315872,
+  "train_total_is_estimate": false,
+  "infer_batch_ms_per_item": 2.8849646830659355,
+  "infer_single_ms": 13.798056000268843,
+  "trainable_params": 5596165,
+  "frozen_params": 66362880
+ },
+ {
+  "model": "NFReqANN-Hybrid",
+  "device": "cpu",
+  "train_tfidf_sec": 0.059436855000967626,
+  "train_embedding_sec": 56.688748435999514,
+  "train_classifier_sec": 16.99341058731079,
+  "train_total_sec": 73.74159587831127,
+  "train_total_is_estimate": false,
+  "infer_batch_ms_per_item": 80.17693372130452,
+  "infer_single_ms": 70.00139449974085,
+  "trainable_params": 5596165,
+  "frozen_params": 66362880
+ },
+ {
+  "model": "SVM",
+  "device": "cpu",
+  "train_total_sec": 0.059636351999870385,
+  "train_total_is_estimate": false,
+  "infer_batch_ms_per_item": 0.07333826229387838
+ }
+]

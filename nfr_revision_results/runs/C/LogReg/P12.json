@@ -1,0 +1,1 @@
+{"protocol": "C", "model": "LogReg", "fold": "P12", "seed": 1012, "test_idx": [77, 874], "y_true": [2, 0], "y_pred": [3, 3], "proba": null, "n_train": 682, "n_val": 122, "n_outer_train": 804, "n_test": 2, "accuracy": 0.0, "f1_macro": 0.0, "train_time_sec": 0.18053650856018066, "infer_sec_per_item": 0.00018167495727539062, "epochs": null, "info": {}}

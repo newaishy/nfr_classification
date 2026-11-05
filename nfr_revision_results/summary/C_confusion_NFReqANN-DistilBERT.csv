@@ -1,0 +1,6 @@
+,Maintainability,Operability,Performance,Security,Usability
+Maintainability,2,0,2,1,2
+Operability,10,36,5,5,5
+Performance,0,4,45,3,6
+Security,2,0,0,51,4
+Usability,1,1,4,0,63
